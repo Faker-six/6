@@ -1,9 +1,44 @@
-> **Note:** This repository is **based on** the official **MultiverSeg** implementation and paper/codebase: https://github.com/halleewong/MultiverSeg
+# RepLK-SE Interactive Medical Image Segmentation
+
+This repository contains the implementation of our interactive medical image segmentation framework with **RepLK and SE attention enhancements**.
+
+Our method improves the robustness of **one-click interactive segmentation** by introducing:
+
+- RepLK-style large-kernel gating
+- Squeeze-and-Excitation (SE) recalibration
+- Cross-block refinement in late fusion stages
+- Prototype-conditioned segmentation
+
+The framework is designed for **interactive medical image segmentation under extremely limited user input (one-click setting)**.
+
+---
+
+# Important Dependency
+
+> **Important:**  
+> This repository is **based on the official MultiverSeg implementation**.  
+> Therefore, you **must first download the original MultiverSeg repository**, as our code is built directly on top of its framework.
+
+Official MultiverSeg repository:
+
+https://github.com/halleewong/MultiverSeg
+
+Please follow the installation instructions in the official repository before running our code.
+
+---
+
+# Installation
+
+First clone the official MultiverSeg repository:
+
+```bash
+git clone https://github.com/halleewong/MultiverSeg.git
+cd MultiverSeg
 
 
 ## How to run (BUSI)
 
-### Train (finetune from official pretrained weights)
+### Train (finetune from the official pretrained weights provided by MultiverSeg)
 
 This training script **finetunes from the official MultiverSeg pretrained checkpoint**.  
 Before training, download the official pretrained weights:
