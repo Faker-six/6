@@ -1,0 +1,23 @@
+__pycache__/
+*.egg-info/
+*.pyc
+# --- user local stuff (do NOT push) ---
+busi dataset/
+replk+se  train/
+replk+se test/
+output*/
+outputs*/
+runs*/
+run*/
+Dataset*/
+datasets/
+data/
+
+# weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# windows zone identifiers
+*:Zone.Identifier
