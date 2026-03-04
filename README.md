@@ -1,10 +1,12 @@
+> **Note:** This repository is **based on** the official **MultiverSeg** implementation and paper/codebase: https://github.com/halleewong/MultiverSeg
+
 ## Models
 
 We provide pre-trained weights [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0). 
 
 * `v0`: initial release (shorter training schedule).
 
-* `v1`: trained for longer, with improved performance. These are the weights used in the ICCV 2025 paper.
+* `v1`: trained for longer, with improved performance.
 
 ## Installation
 
