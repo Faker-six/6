@@ -43,9 +43,14 @@ cd MultiverSeg
 This training script **finetunes from the official MultiverSeg pretrained checkpoint**.  
 Before training, download the official pretrained weights:
 
-```bash
-cd checkpoints
+# Download pretrain weights
+
+Run
+````
 ./download.sh
+````
+
+ Download MultiverSeg weights from [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0)
 
 ```bash
 python scripts/busi/multiverseg_busi_finetune_v5.py \
