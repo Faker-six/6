@@ -26,7 +26,7 @@ https://github.com/halleewong/MultiverSeg
 Please follow the installation instructions in the official repository before running our code.
 
 ---
-
+Download MultiverSeg pre-trained weights v1 [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0).
 
 ## How to run (BUSI)
 
