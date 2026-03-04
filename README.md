@@ -73,14 +73,20 @@ If you find our work or any of our materials useful, please cite our paper:
 ```
 ## How to run (BUSI)
 
-### Train
+### Train (finetune from official pretrained weights)
+
+This training script **finetunes from the official MultiverSeg pretrained checkpoint**.  
+Before training, download the official pretrained weights:
+
+```bash
+cd checkpoints
+./download.sh
 
 ```bash
 python scripts/busi/multiverseg_busi_finetune_v5.py \
   --root /path/to/Dataset_BUSI_with_GT \
   --outdir /path/to/runs_busi_finetune_v5 \
   --img 256 --epochs 80 --batch 2 --workers 4
-```
 
 ### Where to find checkpoints (trained weights)
 
