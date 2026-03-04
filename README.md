@@ -27,19 +27,7 @@ Please follow the installation instructions in the official repository before ru
 
 ---
 
-# Installation
 
-First clone the official MultiverSeg repository:
-
-```bash
-git clone https://github.com/halleewong/MultiverSeg.git
-cd MultiverSeg
-
-download MultiverSeg pre-trained weights [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0). 
-
-* `v0`: initial release (shorter training schedule).
-
-* `v1`: trained for longer, with improved performance. These are the weights used in the ICCV 2025 paper.
 ## How to run (BUSI)
 
 ### Train (finetune from the official pretrained weights provided by MultiverSeg)
