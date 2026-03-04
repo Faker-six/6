@@ -1,55 +1,6 @@
 > **Note:** This repository is **based on** the official **MultiverSeg** implementation and paper/codebase: https://github.com/halleewong/MultiverSeg
 
-## Models
 
-We provide pre-trained weights [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0). 
-
-* `v0`: initial release (shorter training schedule).
-
-* `v1`: trained for longer, with improved performance.
-
-## Installation
-
-You can install `multiverseg` in two ways:
-
-* **With pip**:
-
-```
-pip install git+https://github.com/halleewong/MultiverSeg.git
-```
-
-* **Manually**: cloning it and installing dependencies
-```
-git clone https://github.com/halleewong/MultiverSeg
-python -m pip install -r ./MultiverSeg/requirements.txt
-export PYTHONPATH="$PYTHONPATH:$(realpath ./MultiverSeg)"
-```
-
-## Getting Started
-
-First download the model checkpoints 
-```
-cd checkpoints
-./download.sh
-```
-
-Then see `./notebooks/inference.ipynb` for a tutorial. 
-
-# Acknowledgements
-
-This project builds extensively on code originally developed for [ScribblePrompt](https://github.com/halleewong/ScribblePrompt) and [UniverSeg](https://github.com/JJGO/UniverSeg)
-
-# Citation
-
-If you find our work or any of our materials useful, please cite our paper:
-```
-@article{wong2025multiverseg,
-  title={MultiverSeg: Scalable Interactive Segmentation of Biomedical Imaging Datasets with In-Context Guidance},
-  author={Hallee E. Wong and Jose Javier Gonzalez Ortiz and John Guttag and Adrian V. Dalca},
-  journal={International Conference on Computer Vision},
-  year={2025},
-}
-```
 ## How to run (BUSI)
 
 ### Train (finetune from official pretrained weights)
