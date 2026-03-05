@@ -12,6 +12,7 @@ Our method improves the robustness of **one-click interactive segmentation** by 
 The framework is designed for **interactive medical image segmentation under extremely limited user input (one-click setting)**.
 
 ---
+![img](https://github.com/Faker-six/replk-se-interactive-segmentation/blob/asset/img1.png)
 
 # Important Dependency
 
@@ -68,7 +69,7 @@ python scripts/busi/test_busi_oneclick_from_trainpack.py \
   --img 256 --num 80 \
   --support_k 2 --bank 200 --proto_m 48 --alpha 0.5 --beta 0.5
 ```
-
+![img](https://github.com/Faker-six/replk-se-interactive-segmentation/blob/asset/img3.png)
 ### How to switch to a different checkpoint
 
 Just change `--ckpt` to the `.pt` you want, e.g.
