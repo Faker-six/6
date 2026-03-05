@@ -30,8 +30,8 @@ Please follow the installation instructions in the official repository before ru
 Download MultiverSeg pre-trained weights v1 [here](https://www.dropbox.com/scl/fo/71j9vl3d4db0u229rq689/AI_5oDICnt0HnBcry-xJSNQ?rlkey=7y42638h12ilqds8270owzric&st=3py413ys&dl=0).
 
 ## How to run (BUSI)
-
-### Train (finetune from the official pretrained weights provided by MultiverSeg)
+Download BUSI Dataset [here](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset).
+### Train (finetune from the official pretrained weights provided by MultiverSeg)(replk+se)
 
 This training script **finetunes from the official MultiverSeg pretrained checkpoint**.  
 Before training, download the official pretrained weights:
@@ -59,7 +59,7 @@ ls -lh /path/to/runs_busi_finetune_v5 | grep -E "best\.pt|epoch_.*\.pt"
 ls -1 /path/to/runs_busi_finetune_v5/*.pt
 ```
 
-### Test / Evaluate (one-click)
+### Test / Evaluate (one-click)+(replk+se)
 
 ```bash
 python scripts/busi/test_busi_oneclick_from_trainpack.py \
