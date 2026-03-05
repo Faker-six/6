@@ -14,6 +14,10 @@ The framework is designed for **interactive medical image segmentation under ext
 ---
 ![img](https://github.com/Faker-six/replk-se-interactive-segmentation/blob/asset/img1.png)
 
+---
+RepLK modules are inserted into the last two CrossBlocks.
+![img](https://github.com/Faker-six/replk-se-interactive-segmentation/blob/asset/img2.png)
+
 # Important Dependency
 
 > **Important:**  
